@@ -1,0 +1,57 @@
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+textarea{
+    height: 200px;
+    width: 935px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: #3A424E;
+    color: white;
+    border-radius: 3px;
+    margin:5px;
+}
+.Line{
+    display: flex;
+    flex-direction: row;
+}
+#backspace, #tab, #delete, #enter, #capslock, #shift, #arrowup, #RShift, #arrowleft, #arrowdown, #arrowright, #alt, #ralt, #control ,#rcontrol,#meta{
+    background-color: #1C232E;
+    color: #76796A;
+}
+#arrowleft.active, #arrowdown.active, #arrowright.active,#arrowup.active{
+    background-color: royalblue;
+}
+#space{
+    width: 370px;
+}
+#backspace{
+     width: 130px;
+}
+#tab, #delete{
+    width: 60px;
+}
+#enter{
+    width: 110px;
+}
+#capslock, #shift{
+    width: 130px;
+}
+#control ,#rcontrol{
+    width: 80px;
+}
+#backspace.active, #tab.active, #delete.active, #enter.active, #capslock.active, #shift.active, #up.active, #RShift.active, #left.active, #down.active, #right.active, #alt.active, #RAlt.active, #control.active,#rcontrol.active,#meta.active{
+    background-color: royalblue;
+    color: white;
+}
+.button.active{
+    background-color: royalblue;
+}
